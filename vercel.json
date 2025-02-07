@@ -1,0 +1,20 @@
+{
+  "headers": [
+    {
+      "source": "/assets/img/:image",
+      "headers": [
+        {
+          "key": "X-Robots-Tag",
+          "value": "noindex, nofollow"
+        }
+      ]
+    }
+  ],
+  "redirects": [
+    {
+      "source": "/assets/img/:image",
+      "destination": "/",
+      "permanent": false
+    }
+  ]
+}

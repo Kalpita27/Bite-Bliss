@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Averia+Serif+Libre:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Cinzel+Decorative:wght@400;700;900&display=swap');
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    scroll-behavior: smooth;
+}
+@layer components{
+    .primary-btn{
+        @apply bg-primary text-white font-semibold py-3 px-6 rounded-xl  hover:!scale-110 duration-300
+        /* shadow-[0px_10px_14px_-7px_#ff9f10c9] */
+    }
+}
+
+@layer utilities{
+    .drop-shadow{
+        filter: drop-shadow(-6px 8px 15px rgba(0,0,0,0.2))
+    }
+}
+
+.y{
+    color: #17162dfb;
+}

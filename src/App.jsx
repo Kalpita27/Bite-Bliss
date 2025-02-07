@@ -8,7 +8,7 @@ import ExploreMenu from './components/Explore/ExploreMenu'
 import About from './components/About/About'
 import OurSpeciality from './components/OurSpeciality/OurSpeciality'
 import Services from './components/Services/Services'
-import OurChef from './components/Chef/Chef'
+import OurChef from './components/Chef/OurChef'
 import Review from './components/Review/Review'
 import Footer from './components/Footer/Footer'
 

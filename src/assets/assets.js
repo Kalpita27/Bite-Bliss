@@ -8,7 +8,7 @@ import menu_6 from './img/dessert/bg.jpg'
 
 // special images
 import special_1 from './img/speaciality/palakpaneer.png'
-import special_2 from './img/speaciality/chickentandoori.png'
+import special_2 from './img/speaciality/chickenTandoori.png'
 import special_3 from './img/speaciality/acaismoothie.png'
 
 // services data
@@ -22,8 +22,8 @@ import Chef1 from '../assets/img/Chef/vikas.jpeg'
 import Chef2 from '../assets/img/Chef/ranveer1.jpg'
 
 // Customer review images
-import prof1 from './img/review/prof1.jpg'
-import prof2 from './img/review/prof2.jpg'
+import prof1 from './img/Review/prof1.jpg'
+import prof2 from './img/Review/prof2.jpg'
 import prof3 from './img/Review/prof3.png'
 import prof4 from './img/Review/prof4.jpg'
 

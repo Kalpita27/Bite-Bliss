@@ -22,10 +22,10 @@ const OurChef = () => {
         {chefs.map((chef, index) => (
           <motion.div
             key={index}
-            initial={{ opacity: 0, y: 50 }} // Initial position: invisible and below
-            whileInView={{ opacity: 1, y: 0 }} // Move to final position (fully visible)
-            transition={{ duration: 0.5, delay: index * 0.2 }} // Delay each card by 0.2s
-            viewport={{ once: false }} // Trigger animation when in view
+            initial={{ opacity: 0, y: 50 }} 
+            whileInView={{ opacity: 1, y: 0 }} 
+            transition={{ duration: 0.5, delay: index * 0.2 }} 
+            viewport={{ once: false }}
             className="bg-gray-900 p-6 rounded-xl text-center shadow-lg hover:shadow-xl transition-all"
           >
             <img
@@ -43,21 +43,21 @@ const OurChef = () => {
               <motion.a
                 href="#"
                 className="social-icon w-8 h-8 flex items-center justify-center rounded-full text-white bg-primary transition-all hover:bg-blue-600"
-                whileHover={{ y: -4 }} // Move up slightly on hover
+                whileHover={{ y: -4 }}
               >
                 <FaInstagram />
               </motion.a>
               <motion.a
                 href="#"
                 className="social-icon w-8 h-8 flex items-center justify-center rounded-full text-white bg-primary transition-all hover:bg-blue-600"
-                whileHover={{ y: -4 }} // Move up slightly on hover
+                whileHover={{ y: -4 }} 
               >
                 <FaLinkedin />
               </motion.a>
               <motion.a
                 href="#"
                 className="social-icon w-8 h-8 flex items-center justify-center rounded-full text-white bg-primary transition-all hover:bg-blue-600"
-                whileHover={{ y: -4 }} // Move up slightly on hover
+                whileHover={{ y: -4 }} 
               >
                 <FaFacebook />
               </motion.a>

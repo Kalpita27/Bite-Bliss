@@ -48,7 +48,6 @@ const Hero = () => {
             {/* Hero images */}
             <div
              className='flex justify-center items-center'>
-                {/* <img src={HeroPng} alt="" className='w-[350px] md:w-[550px] drop-shadow'/>    //if want img shadow then add drop-shadow */}
                 <motion.img 
                     initial={{opacity: 0, x: 200, rotate: 75}}
                     animate= {{opacity: 1, x: 0, rotate: 0}}

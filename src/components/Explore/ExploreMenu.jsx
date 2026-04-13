@@ -12,7 +12,6 @@ const ExploreMenu = () => {
 
       {/* Scrollable Menu Container */}
       <div className="relative w-full flex justify-center">
-        {/*  max-w-screen-xl - this xl incease the length of menu item. it can be set to lg, sm, md, xl */}
         <div className="menu-scroll flex space-x-6 overflow-x-auto px-6 py-4 mb-7 max-w-screen-xl mx-auto scrollbar-custom font-averia">
           {menu_list.map((item, index) => (
             <motion.div
